@@ -1,0 +1,15 @@
+                            =Design Document=
+
+The basic functionality will include the features related to quiz module which itself would be having two features :
+ 
+  * The  Tutorial : This part will take user through some interesting topics .The tutorial shall create the ground for the quiz part of the application.
+
+_write your ideas here_
+
+UI part of *The Tutorial* shall be described in different page.
+
+  * The  Quiz : This part will take user through the series of questions and will track the record number of times he attempted and correctly answered the questions in given time.
+
+_write your ideas here_
+
+UI part of *The Quiz* shall be described in different page.
