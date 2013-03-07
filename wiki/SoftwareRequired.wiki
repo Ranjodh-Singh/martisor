@@ -1,0 +1,6 @@
+=Software Required=
+   # JDK 1.7 
+   # Eclipse 3.6  Indigo.
+   # Android SDK latest version with Api level 14 .
+   # Subclipse : Add in eclipse from eclipse marketplace. eclipse - > help - > eclipse marketplace - > type subclipse and click on install. 
+   # UI Dev tools : photoshop ? (_Neha update here_)
