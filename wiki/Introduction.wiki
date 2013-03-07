@@ -1,0 +1,15 @@
+#design document for android quiz.
+
+                               = Introduction =
+This quiz application will be having two parts 
+
+# first is core quiz application which will be give the basic functionality to the users to play with.
+# second part is the extension which will be the list of features that will be added later on.
+  detailed design of both the parts shall be documented in different design documents.
+
+[]
+
+ 
+
+
+
