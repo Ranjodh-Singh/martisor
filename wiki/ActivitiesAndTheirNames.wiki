@@ -1,0 +1,11 @@
+#labels Phase-Design,Phase-Requirements,Featured
+#activities for app.
+
+= Activities =
+
+  # Start up activity will be called *DashBoardActivity* , will be responsible to show user 
+   * What the application does.
+   * If user need to update the database from or if we have any updates.
+   * _later can have a preferences to add user account or a link to sign in_ 
+
+  # 
