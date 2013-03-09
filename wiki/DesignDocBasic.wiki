@@ -10,6 +10,15 @@ UI part of *The Tutorial* shall be described in different page.
 
   * The  Quiz : This part will take user through the series of questions and will track the record number of times he attempted and correctly answered the questions in given time.
 
-_write your ideas here_
+  * user will be provided with certain topics.when user selects one of the topic , he will be taken to the quiz module .
+  *quiz module* : Initially user will get 100 health point to take help through a particular quiz.
+
+each question will be on N marks and if user provides wrong answer (if number of attempts are 0<= n < 3 ) .Effective marks given for particular question will be N/(n+1) . 
+ 
+there will be a help like of button with each question , if user is uncertain about the correct answer he can get help to solve the problem but 20 the health points will be subtracted from current health .
+
+so considering above scenario there are two Life Lines for the user 
+   # Health points(HP) : wouldn't affect the effective marks for particular              question.
+   # number of attempts(n-factor) : would deduct marks from an question. 
 
 UI part of *The Quiz* shall be described in different page.
