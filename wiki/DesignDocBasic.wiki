@@ -11,7 +11,7 @@ UI part of *The Tutorial* shall be described in different page.
   * The  Quiz : This part will take user through the series of questions and will track the record number of times he attempted and correctly answered the questions in given time.
 
   * user will be provided with certain topics.when user selects one of the topic , he will be taken to the quiz module .
-  *quiz module* : Initially user will get 100 health point to take help through a particular quiz.
+  Quiz module : Initially user will get 100 health point to take help through a particular quiz.
 
 each question will be on N marks and if user provides wrong answer (if number of attempts are 0<= n < 3 ) .Effective marks given for particular question will be N/(n+1) . 
  
