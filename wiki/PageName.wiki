@@ -1,10 +1,8 @@
 #labels Phase-Requirements,Phase-Design
 #UI Part of the Quiz Module.
 
-= Details =
+== Details ==
 
 1. Starting page will be having a *Grid* stating levels in the Quiz. We need to come up with lucrative texts and logos to intrigue user.
 2. Seek-bar for timer or an interactive clock which displays remaining time in toasts if volume is disabled or speaks the time up to gear up the test taker.
-
-
 
