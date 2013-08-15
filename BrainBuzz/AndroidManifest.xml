@@ -12,6 +12,20 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <activity
+                android:name="main.java.com.rs.brainbuzz.activity.LoginActivity"
+                android:label="LogIn"/>
+        <activity
+                android:name="main.java.com.rs.brainbuzz.activity.DashBoardActivity"
+                android:label="DashBoard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="main.java.com.rs.brainbuzz.activity.SelectionActivity"
+                android:label="Selection"/>
     </application>
 
 </manifest>

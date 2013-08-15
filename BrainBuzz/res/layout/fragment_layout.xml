@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<main.java.com.rs.brainbuzz.layout.DashboardLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#f8f9fe" >
+    <!--  News Feed Button -->
+    <Button
+            android:id="@+id/btn_login"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/login"
+            android:text="Log In" />
+
+    <!--  Friends Button -->
+    <Button
+            android:id="@+id/btn_about_us"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/aboutus"
+            android:text="About Us" />
+
+    <!--  Messages Button -->
+    <Button
+            android:id="@+id/btn_references"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/references"
+            android:text="References" />
+
+    <!--  Places Button -->
+    <Button
+            android:id="@+id/btn_goodbye"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/exit"
+            android:text="Exit" />
+
+<!--    &lt;!&ndash;  Events Button &ndash;&gt;
+    <Button
+            android:id="@+id/btn_events"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/btn_events"
+            android:text="Events" />
+
+    &lt;!&ndash;  Photos Button &ndash;&gt;
+    <Button
+            android:id="@+id/btn_photos"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/btn_photos"
+            android:text="Photos" />-->
+
+</main.java.com.rs.brainbuzz.layout.DashboardLayout>
