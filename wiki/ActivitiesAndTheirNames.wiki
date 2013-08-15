@@ -8,4 +8,4 @@
    * If user need to update the database from or if we have any updates.
    * _later can have a preferences to add user account or a link to sign in_ 
 
-  # 
+  # *LoginActivity* this will be normal login activity for a user and after that we can proceed to the *SelectionActivity* which will be responsible for taking the input from the user and decide what subject the following quiz should be of.
