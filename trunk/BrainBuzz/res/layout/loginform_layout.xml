@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:layout_gravity="center">
+
+    <!--<ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="42dp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_alignTop="@+id/listView"
+        android:layout_alignLeft="@+id/listView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignTop="@+id/listView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/listView"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textIsSelectable="true"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logintext"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_marginTop="11dp"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+</RelativeLayout>
